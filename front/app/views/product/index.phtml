@@ -1,0 +1,11 @@
+<header class="row">
+    <h2 class="col-10">Hello <?php echo $name ?></h2>
+    <a href="/index/logout" class="btn btn-warning col-2">LogOut</a>
+</header>
+<main class="row">
+    <h4 class="col-8">Enter the page number :</h4>
+    <form action="/product/display" method="post">
+        <input class="form-control my-2" type="text" name="page">
+        <button class="btn btn-primary">Submit</button>
+    </form>
+</main>
